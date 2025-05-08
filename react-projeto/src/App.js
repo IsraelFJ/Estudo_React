@@ -21,7 +21,7 @@ function App() {
   return (
     <div className='App'>
       <h1>Cadastro de Cliente</h1>
-      <img src='/images/logo.png'></img>
+      <img src="https://www.shoppingtambia.com.br/fotos/estabelecimento/9e3e1aaefc8b85e3e0e89720384190bf_logo_188.png" alt="Logo da empresa" className="logo" />
       <hr/>
       <h2>Adicionar Usuários</h2>
       <input type='text' placeholder='Digite seu nome' value={usuario} 
